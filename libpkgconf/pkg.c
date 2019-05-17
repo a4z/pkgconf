@@ -817,7 +817,7 @@ pkgconf_compare_version(const char *a, const char *b)
 
 		if (isnum)
 		{
-			int onelen, twolen;
+			size_t onelen, twolen;
 
 			while (*one == '0')
 				one++;
